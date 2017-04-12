@@ -1,0 +1,130 @@
+.test{
+
+
+}
+.shape1 {
+
+    border: 2px solid #000;
+    float: left;
+    height: 300px;
+    margin: 11px 1px 16px 27px;
+    width: 300px;
+    background: linear-gradient(red,yellow,green);
+}
+.shape2 {
+
+    border:ridge;
+    border-radius: 150px 0 150px 0;
+    float: left;
+    height: 300px;
+    margin: 11px 1px 16px 27px;
+    width: 300px;
+    background: radial-gradient(yellow,green,red,deeppink);
+    transition:1s
+}
+.shape2:hover{
+    border-radius: 0 150px 0 150px;
+
+
+}
+.shape3 {
+
+    border: 2px solid #000;
+    float: left;
+    height: 300px;
+    margin: 11px 1px 16px 27px;
+    background: radial-gradient(red,yellow,green,yellow);
+    border-radius: 50%;
+    transition: 2s;
+    width: 300px;
+}
+.shape3:hover{
+    border-radius: 0%;
+
+
+}
+.shape4 {
+
+    border: 2px solid #000;
+    float: left;
+    height: 300px;
+    margin: 11px 1px 16px 27px;
+    background-image: url("../Sujit.jpg");
+    width: 300px;
+    transition:2s;
+    border-radius:50%
+}
+.shape4:hover{
+    transform: rotate(360deg);
+
+}
+.clear{overflow: hidden}
+.test2{
+
+
+}
+.shape5 {
+
+    border: 2px solid #000;
+    float: left;
+    height: 250px;
+    margin: 11px 1px 16px 27px;
+    width: 250px;
+    background: linear-gradient(yellow,#37C5FA, #d20f02);
+    transition: 1s;
+}
+.shape5:hover{
+    transform: rotate(30deg);
+
+}
+.shape6 {
+
+    border: 2px solid #000;
+    float: left;
+    height: 250px;
+    margin: 11px 1px 16px 27px;
+    width: 250px;
+    background-image: url("../Image.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 1s;
+}
+.shape6:hover{
+    transform: scale(1.5);
+
+
+}
+.shape7 {
+
+    border: 2px solid #000;
+    float: left;
+    height: 300px;
+    margin: 11px 1px 16px 27px;
+   background-image: url("../Shape.png");
+
+    transition: 2s;
+    width: 300px;
+    box-shadow: 10px 10px 10px 0 #D36E07;
+}
+
+.shape8 {
+
+    border: 2px solid #000;
+    float: left;
+    height: 300px;
+    margin: 11px 1px 16px 27px;
+
+
+    width: 300px;
+    transition:2s;
+
+}
+.shape8 h1 {
+    margin-top: 80px;
+    text-align: center;
+    text-shadow: 0px 0px 0px #666;
+    transition: 1s;
+}
+.shape8 h1:hover{
+    text-shadow: 6px 8px 5px #666;
+}

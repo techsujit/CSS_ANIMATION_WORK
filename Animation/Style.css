@@ -1,0 +1,69 @@
+.shape1{
+    height: 200px;
+    width: 200px;
+    background: green;
+    margin-left: 100px;
+    margin-top:100px;
+    transform: skewY(30deg);
+    float: left;
+    transition:1s;
+
+}
+.shape2{
+    height: 200px;
+    width: 200px;
+    background: green;
+    margin-left: 10px;
+    margin-top:100px;
+    float: left;
+    transform: skewY(-30deg);
+    transition:1s;
+
+}
+.whole{
+    width: 900px;
+    margin: auto;
+}
+.shape1:hover{
+
+    transform: skewY(-30deg);
+    animation: sujit;
+    animation-duration: 2s;
+    animation-iteration-count: 5;
+}
+.shape2:hover{
+
+    transform: skewY(30deg);
+    animation: sujit;
+    animation-duration: 2s;
+    animation-iteration-count: 5;
+}
+
+
+.keyframework{
+    margin-left:100px;
+    width:500px;
+    height:200px;
+    background: green;
+    float: left;
+    margin-left: 300px;
+    margin-top: 100px;
+    animation: sujit;
+    animation-duration: 4s;
+    animation-iteration-count:infinite;
+
+}
+/*
+@keyframes sujit {
+    from{background:red}
+    to{background: chartreuse}
+
+}*/
+@keyframes sujit {
+    0%{background: green}
+    20%{background: red}
+    40%{background: aqua}
+    60%{background: orange}
+    80%{background: blueviolet}
+    100%{background: wheat}
+}
