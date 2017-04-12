@@ -1,0 +1,12 @@
+.cssborder{
+    height: 500px;
+    width: 500px;
+    border:10px solid #000;
+    margin: 10px auto 0;
+    padding: 10px;
+    border-image: url("Frame.png") 30  repeat;
+
+
+
+
+}
